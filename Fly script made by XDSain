@@ -1,3 +1,10 @@
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "LOADING Script";
+	Text = "VERSION : V1";
+	Icon = "rbxthumb://type=Asset&id=41828006&w=150&h=150"})
+Duration = 16;
+
+wait(3)
 local main = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local up = Instance.new("TextButton")
@@ -136,9 +143,9 @@ local hum = chr and chr:FindFirstChildWhichIsA("Humanoid")
 nowe = false
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
-	Title = "Fly GUI V3";
-	Text = "By me_ozone and Quandale The Dinglish XII#3550";
-	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+	Title = "Fly GUI V1";
+	Text = "By XDSain";
+	Icon = "rbxthumb://type=Asset&id=41828006&w=150&h=150"})
 Duration = 5;
 
 Frame.Active = true -- main = gui
